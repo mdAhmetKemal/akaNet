@@ -1,0 +1,70 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>akaNet2017_12_pureCode</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>akaNet2017_12_pureCode</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="akaNet.vcxproj" File="akaNet.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="AccuracyCrossEntropy.cu">AccuracyCrossEntropy.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ActivationFuncCu.cu">ActivationFuncCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ChangeFullyWeFullyRegCu.cu">ChangeFullyWeFullyRegCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ChangeFullyWeigthCu.cu">ChangeFullyWeigthCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Connect.cu">Connect.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConnectShower.cu">ConnectShower.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="conv2dV2.cu">conv2dV2.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="conv2d_Back.cu">conv2d_Back.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="conv2d_Feed.cu">conv2d_Feed.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="conv2d_Update.cu">conv2d_Update.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="dataOnGpu.cu">dataOnGpu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="DerivationFuncCu.cu">DerivationFuncCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ErrorCalculate.cu">ErrorCalculate.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ErrorSoftmaxCu.cu">ErrorSoftmaxCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyLayerBackPropagation.cu">FullyLayerBackPropagation.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyLayerFeedwork.cu">FullyLayerFeedwork.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyWeFullyRegBackPropagation.cu">FullyWeFullyRegBackPropagation.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyWeigthFullyRegBackProCuRelu.cu">FullyWeigthFullyRegBackProCuRelu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyWeigthFullyRegulator.cu">FullyWeigthFullyRegulator.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FullyWeigthFullyRegulatorCuRelu.cu">FullyWeigthFullyRegulatorCuRelu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HyperTensor.cu">HyperTensor.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LayerShower.cu">LayerShower.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="otherWeigthChanger.cu">otherWeigthChanger.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="poolAvg2d.cu">poolAvg2d.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="poolAvg2dBack.cu">poolAvg2dBack.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="poolMax2d.cu">poolMax2d.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="poolMax2dBack.cu">poolMax2dBack.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="preComputeCu.cu">preComputeCu.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="preComWeigthShower.cu">preComWeigthShower.cu</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Connect.cpp">Connect.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConnectW_Regular.cpp">ConnectW_Regular.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HyperTensor.cpp">HyperTensor.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Layer.cpp">Layer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Net.cpp">Net.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NetCmd.cpp">NetCmd.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NetData.cpp">NetData.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Source.cpp">Source.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Connect.h">Connect.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConnectActFunc.h">ConnectActFunc.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConnectCuda.h">ConnectCuda.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConnectCudaVaryasyon.h">ConnectCudaVaryasyon.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="EnumType.h">EnumType.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HyperTensor.h">HyperTensor.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Layer.h">Layer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Net.h">Net.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NetCmd.h">NetCmd.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NetData.h">NetData.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NetGL.h">NetGL.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ShowNetCuda.h">ShowNetCuda.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
